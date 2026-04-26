@@ -30,7 +30,7 @@ body{font-family: 'Poppins', sans-serif;}
 .section-label{font-size:11px;font-weight:500;color:#185FA5;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px;}
 .section-title{font-size:22px;font-weight:500;color:var(--color-text-primary);margin-bottom:24px;}
 .skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;}
-.skill-pill{padding:10px 14px;border-radius:var(--border-radius-md);border:0.5px solid var(--color-border-tertiary);background:var(--color-background-primary);font-size:13px;color:var(--color-text-primary);}
+.skill-pill{padding:10px 14px;border-radius:5px;border:0.5px solid var(--color-border-tertiary);background:var(--color-background-primary);font-size:13px;color:var(--color-text-primary);}
 .skill-pill .cat{font-size:11px;color:#E5E5E5;margin-bottom:3px;}
 .exp-card{padding:20px;border-radius:var(--border-radius-lg);border:0.5px solid var(--color-border-tertiary);background:var(--color-background-primary);margin-bottom:12px;}
 .exp-card .role{font-size:15px;font-weight:500;color:var(--color-text-primary);}
@@ -64,7 +64,7 @@ body{font-family: 'Poppins', sans-serif;}
   .nav-links {
     display: none;
   }
-  .hero{padding:64px 32px 48px;border-bottom:0.5px solid #595959; background-color:#F7F6F2;}
+  .hero{padding:64px 32px 48px;border-bottom:0.5px solid #595959; background-color:#F7F6F2; background-image: none;}
 }
 
 @media (prefers-color-scheme: dark) {
