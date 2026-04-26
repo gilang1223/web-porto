@@ -59,3 +59,10 @@ body{font-family: 'Poppins', sans-serif;}
     align-items: center;
     flex-wrap: wrap;
 }
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .hero{padding:64px 32px 48px;border-bottom:0.5px solid #595959; background-color:#F7F6F2;}
+}
