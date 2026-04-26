@@ -66,3 +66,66 @@ body{font-family: 'Poppins', sans-serif;}
   }
   .hero{padding:64px 32px 48px;border-bottom:0.5px solid #595959; background-color:#F7F6F2;}
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #F7F6F2;
+  }
+
+  .nav {
+    background-color: #111111;
+    border-bottom-color: #333;
+  }
+
+  .hero {
+    background-color: #1a1a1a;
+    border-bottom-color: #333;
+  }
+
+  .hero h1,
+  .hero p {
+    color: #F7F6F2;
+  }
+
+  .section[style*="#F7F6F2"] {
+    background-color: #1e1e1e !important;
+    color: #F7F6F2 !important;
+  }
+
+  .section[style*="#252525"] {
+    background-color: #111111 !important;
+  }
+
+  .exp-card,
+  .edu-card,
+  .proj-card,
+  .skill-pill,
+  .contact-chip {
+    background-color: #2a2a2a !important;
+    border-color: #444 !important;
+    color: #F7F6F2 !important;
+  }
+
+  .exp-card li,
+  .exp-card .role,
+  .edu-card .univ,
+  .edu-card .jurusan,
+  .proj-card .proj-title,
+  .proj-card .proj-desc {
+    color: #cccccc !important;
+  }
+
+  .btn-outline {
+    border-color: #555;
+    color: #F7F6F2;
+  }
+
+  .btn-outline:hover {
+    background-color: #333;
+  }
+
+  .contact-chip {
+    color: #cccccc !important;
+  }
+}
